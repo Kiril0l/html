@@ -162,7 +162,7 @@
 .icon-feature-text {
     text-align: center;
     font-size: 10px;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 
 .icon-feature-button {
@@ -175,6 +175,13 @@
     padding: 8px 50px;
 }
 
+#back {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 200px;
+}
+
+
 #need {
     background-color: #FAFAFA;
     width: 100%;
@@ -185,15 +192,100 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.need_img {
-    margin-top: 200px;
+#need_text{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
-.need_text {
-    margin-top: 230px;
-    text-align: center;
-    font-size: 30px;
+#need_lower {
+    display: grid;
+    height: 50px;
+    grid-template-columns: 50px auto;
 }
+
+#drag_text {
+    display: grid;
+    grid-template-rows: 3fr 2fr 3fr;
+}
+
+.feature-text{
+    color: grey;
+    margin-top: 20px;
+}
+
+
+.need_text {
+    font-size: 50px;
+}
+
+.need_text_p {
+    text-align: left;
+    color: grey;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.need_last_text {
+    color: #01b8ca;
+    margin-top: 75px;
+}
+
+.need_last_text2 {
+    color: #01b8ca;
+    margin-top: 45px;
+}
+
+.need_img_o {
+    margin-top: 75px;
+}
+
+.need_img_o2 {
+    margin-top: 35px;
+}
+
+
+
+
+#drag {
+    background-color: #0e1a35;
+    background-image: url('../img/graph.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 50%;
+    width: 100%;
+    height: 600px;
+}
+
+#drag>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#drag_tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#in_progress {
+    display: grid;
+    grid-template-rows: 2fr 4fr 3fr;
+}
+
+#completed {
+    display: grid;
+    grid-template-rows: 2fr 4fr 3fr;
+}
+
+.progress3 {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.done3 {
+    margin-top: 5px;
+}
+
+
 
 
 @media screen and (min-width: 1920.1px) {
