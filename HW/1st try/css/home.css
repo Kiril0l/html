@@ -1,0 +1,50 @@
+* {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head_bar {
+    padding: 70px 100px;
+}
+
+.head {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.bottom_send {
+    padding: 100px;
+}
+
+#top {
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: none;
+    grid-template-areas:
+        "logo . navigation"
+        "content content content";
+    margin: auto;
+}
+
+#book_a_table {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-areas:
+        "img_logo"
+        "order_info"
+        "send";
+}
+
+#bottom {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "logo"
+        "info"
+        "social";
+}
