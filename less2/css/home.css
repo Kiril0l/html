@@ -193,8 +193,8 @@
 }
 
 #need_text{
-    display: grid;
-    grid-template-rows: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
 }
 
 #need_lower {
@@ -281,6 +281,16 @@
     grid-template-rows: 2fr 2fr 1fr;
 }
 
+#drag_icon_position {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80px;
+    justify-content: space-between;
+    height: 30px;
+    grid-gap: 20px;
+    margin-left: 80px;
+}
+
 .progress3 {
     margin-left: 20px;
     margin-top: 30px;
@@ -314,20 +324,19 @@
     margin-bottom: 10px;
 }
 
-.drag_ic {
-    text-decoration: none;
-    
-    color: rgb(221, 220, 220);
-    padding: 0px 3px;
-    margin-right: 20px;
-    border-radius: 100px;
-    border: 1px solid rgb(221, 220, 220);
-    font-size: 15px;
-    text-transform: uppercase;
+.span_tt {
+    color: grey;
 }
 
-.grag_in_mar {
-    margin-left: 80px;
+.drag_ic {
+    border-radius: 20px;
+    border: 1px solid rgb(221, 220, 220);
+    text-align: center;
+}
+
+.drag_icon_ff {
+    text-decoration: none;
+    color: rgb(221, 220, 220);
 }
 
 #power>div {
@@ -359,6 +368,83 @@
     margin-top: 40px;
 }
 
+
+
+#price>div {
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr 1fr;
+}
+
+#price_item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 20px;
+}
+
+#price_item>div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+}
+
+#col1>div {
+    display: flex;
+    flex-direction: row;
+}
+
+#col2>div {
+    display: flex;
+    flex-direction: row;
+}
+
+#col3>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.price_first_text {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.price_button {
+    background-color: #5584ff;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 35px;
+    border-radius: 20px;
+}
+
+.price {
+    text-align: center;
+}
+
+.text_head_price {
+    margin-bottom: 25px;
+}
+.price_col {
+    text-align: center;
+}
+
+.numder {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.price_head_text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.price_just_text {
+    color: grey;
+    margin-left: 10px;
+}
+
+.rows {
+    margin-top: 6px;
+}
 
 @media screen and (min-width: 1920.1px) {
     .wrapper {
@@ -419,3 +505,11 @@
         height: 160px;
     }
 }
+
+
+
+
+
+
+
+hr
