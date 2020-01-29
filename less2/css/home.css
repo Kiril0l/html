@@ -403,6 +403,7 @@
     flex-direction: row;
 }
 
+
 .price_first_text {
     font-weight: normal;
     font-size: 50px;
@@ -445,6 +446,39 @@
 .rows {
     margin-top: 6px;
 }
+
+#footer>div {
+    display: grid;
+    grid-template-columns: 7fr 3fr 1fr;
+    justify-content: space-between;
+    background-color: #0e1a35;
+    /* width: 100%; */
+}
+
+#footer_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footer_social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer_me {
+    text-align: center;
+}
+
+.footer_menu {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 1920.1px) {
     .wrapper {
@@ -506,10 +540,3 @@
     }
 }
 
-
-
-
-
-
-
-hr
