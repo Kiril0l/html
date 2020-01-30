@@ -447,12 +447,15 @@
     margin-top: 6px;
 }
 
+#footer {
+    background-color: #0e1a35;
+    width: 100%;
+}
+
 #footer>div {
     display: grid;
     grid-template-columns: 7fr 3fr 1fr;
     justify-content: space-between;
-    background-color: #0e1a35;
-    /* width: 100%; */
 }
 
 #footer_nav {
